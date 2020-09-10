@@ -13,10 +13,19 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
 }
+
+.extras {
+	display: flex;
+	flex: 1;
+	min-height: 20vh;
+	align-items: center;
+	justify-content: center;
+}
+
 
 .key {
   border: .4rem solid black;
@@ -30,6 +39,24 @@ body,html {
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+}
+
+button {
+	border: .4rem solid black;
+	border-radius: .5rem;
+	margin: 1rem;
+	font-size: 1.5rem;
+	padding: 2rem 10px;
+	transition: all .07s ease;
+	width: 10rem;
+	text-align: center;
+	color: #ffc600;
+	background: rgba(0,0,0,0.4);
+	text-shadow: 0 0 .5rem black;display: flex;
+	flex: 1;
+	min-height: 20vh;
+	align-items: center;
+	justify-content: center;
 }
 
 .playing {
